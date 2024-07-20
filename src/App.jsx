@@ -145,6 +145,7 @@ export default function App() {
 				dealerCount += cardValue;
 			}
 			setDealerSum(dealerCount);
+			setGameRunning(false)
 		}
 	}
 
