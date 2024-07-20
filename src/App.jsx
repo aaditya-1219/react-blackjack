@@ -65,7 +65,7 @@ export default function App() {
 		setPlayerSum(() => {
 			if (playerSum > 21) {
 				toast("You've gone bust!")
-				// console.log("You've gone bust!");
+				setGameRunning(false)
 			}
 			let sum = 0;
 			playerCards.forEach((card) => {
@@ -125,20 +125,15 @@ export default function App() {
 		console.log("Dealer sum: " + dealerSum + "\nPlayer sum: " + playerSum);
 		if (playerSum > 21) {
 			toast("Dealer win!")
-			// console.log("Dealer wins.");
 		} else if (dealerSum > 21) {
 			toast("You win!")
-			// console.log("You win!");
 		} else {
 			if (playerSum > dealerSum) {
 				toast("You win!")
-				// console.log("You win!");
 			} else if (dealerSum > playerSum) {
 				toast("Dealer wins.")
-				// console.log("Dealer wins.");
 			} else {
 				toast("Draw!")
-				// console.log("Draw");
 			}
 		}
 	}
