@@ -1,8 +1,19 @@
-# React + Vite
+# Blackjack Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Link: https://blackjack-browser.netlify.app/
 
-Currently, two official plugins are available:
+This web-based [Blackjack](https://en.wikipedia.org/wiki/Blackjack) game offers an authentic and engaging experience, leveraging the [Deck of Cards API](https://www.deckofcardsapi.com/) for seamless gameplay. Developed using React.js, the game features user-friendly controls and a sleek design, inviting players to test their skills and luck against the dealer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## User interface
+
+#### Main screen
+
+![image](https://github.com/user-attachments/assets/8b6ed08a-f1a9-4fac-8424-e7cbe1a44de4)
+
+#### Player wins
+
+![image](https://github.com/user-attachments/assets/cb68bb39-aeb4-4702-9a9d-1b74955ea846)
+
+#### Dealer wins
+
+![image](https://github.com/user-attachments/assets/2b2dd018-6481-4cde-b987-7453815e0765)
